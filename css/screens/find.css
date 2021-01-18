@@ -29,6 +29,7 @@
 .open-chat__header span {
   opacity: 0.5;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .open-chat__header i {
@@ -74,7 +75,7 @@
   width: 1px;
   height: 15px;
   margin: 0 5px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .open-post__member-status {

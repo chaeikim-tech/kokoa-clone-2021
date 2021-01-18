@@ -35,17 +35,17 @@
 
 .fa-bolt {
   color: var(--yellow);
-  animation: boltRotate 1s linear infinite;
+  animation: boltRotate 1.8s linear infinite;
 }
 
 @keyframes boltRotate {
   0% {
-    transform: rotateY(180deg);
+    transform: none;
   }
   50% {
-    transform: rotateY(360deg);
+    transform: translateY(3px) rotateY(360deg);
   }
   100% {
-    transform: rotateY(180deg);
+    transform: none;
   }
 }

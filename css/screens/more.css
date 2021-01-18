@@ -7,6 +7,10 @@
   color: var(--yellow);
 }
 
+.more-screen .fa-star-of-david {
+  color: rgba(249, 253, 0, 0.4);
+}
+
 .more-screen .icon-row {
   margin-top: 30px;
 }
