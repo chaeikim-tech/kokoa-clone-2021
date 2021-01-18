@@ -129,3 +129,12 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+
+.open-post__column:last-child {
+  cursor: pointer;
+  color: white;
+}
+
+.open-post__column:last-child:checked + .open-post__heart-count {
+  color: tomato;
+}
