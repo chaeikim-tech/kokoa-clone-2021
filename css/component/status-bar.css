@@ -1,0 +1,51 @@
+.status-bar {
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 5px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #0f1932;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-wifi {
+  margin-left: 5px;
+}
+
+.status-bar__column .fa-battery-three-quarters {
+  margin: 0 5px;
+}
+
+.fa-bolt {
+  color: var(--yellow);
+  animation: boltRotate 1.8s linear infinite;
+}
+
+@keyframes boltRotate {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(3px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
