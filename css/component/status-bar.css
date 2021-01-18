@@ -5,6 +5,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #0f1932;
 }
 
 .status-bar__column {
@@ -28,4 +31,21 @@
 
 .status-bar__column .fa-battery-three-quarters {
   margin: 0 5px;
+}
+
+.fa-bolt {
+  color: var(--yellow);
+  animation: boltRotate 1s linear infinite;
+}
+
+@keyframes boltRotate {
+  0% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
 }

@@ -3,11 +3,11 @@
   padding: 15px 0;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
+  color: var(--gray);
 }
 .recommended-friends__title {
   font-size: 12px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .recommended-friends span {
@@ -15,7 +15,7 @@
   margin: 100px 0;
   text-align: center;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .open-chat__header {
@@ -107,4 +107,24 @@
 
 .open-post__heart-count span {
   margin-left: 4px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: whitesmoke;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: whitesmoke;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }

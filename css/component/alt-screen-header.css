@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #273238;
+  color: white;
 }
 
 .alt-header__column {

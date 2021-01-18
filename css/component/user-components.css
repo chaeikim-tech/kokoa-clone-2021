@@ -1,9 +1,19 @@
 .user-component {
   justify-content: space-between;
+  margin: 5px;
+}
+
+.user-component:hover {
+  cursor: pointer;
+  padding: 4px 4px 0 4px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.2);
 }
 
 .user-component__column {
-  margin-bottom: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .user-component,
@@ -27,7 +37,7 @@
 .user-component__subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .user-component__avatar--xl {
@@ -48,7 +58,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

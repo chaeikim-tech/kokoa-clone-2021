@@ -1,3 +1,12 @@
+.more-header .fa-cog :hover {
+  color: #661b1b;
+}
+
+.more-screen .fa-info-circle {
+  padding: 7px;
+  color: var(--yellow);
+}
+
 .more-screen .icon-row {
   margin-top: 30px;
 }
