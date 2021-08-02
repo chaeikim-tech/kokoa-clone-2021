@@ -25,10 +25,6 @@
 
 .friends-screen {
   padding: 0 var(--horizontal-space);
-  height: 500px;
-  overflow: scroll;
-  scrollbar-color: dark;
-  margin-bottom: 55px;
 }
 
 .friends-screen__channel {
