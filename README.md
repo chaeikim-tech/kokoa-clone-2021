@@ -32,6 +32,7 @@ HTML & CSS 로 만든 Messager Screen 입니다.
 <div><img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"></div>
 <div><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"></div>
 
-### Function
+### Features
 
-
+* CSS의 keyframes 애니메이션으로 Friends 메뉴로 이동할 때 Splash animation을 생성.
+* @media screen 속성을 이용하여 screen이 mobile 사이즈가 아닐 경우 화면이 보이지 않게 적용.
