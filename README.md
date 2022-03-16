@@ -4,7 +4,7 @@ HTML & CSS 로 만든 Messager Screen 입니다.
 
 ### Preview
 
-💡 [SITE](https://eunjukim-tech.github.io/kokoa-clone-2021/)
+💡 [SITE](https://chaeikim-tech.github.io/kokoa-clone-2021/)
 
 
 
